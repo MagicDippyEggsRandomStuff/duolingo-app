@@ -12,7 +12,7 @@ This project provides a dedicated Chess.com desktop app that wraps the `https://
 
 You can find the latest releases (including `.exe` installers and `.zip` portable versions) on the [Releases page](https://github.com/MagicDippyEgg/chess.com-app/releases) of this repository.
 
-1.  Go to the [Releases page](https://github.com/MagicDippyEgg/chess.com-app/releases).
+1.  Go to the [Releases page](https://github.com/MagicDippyEggsRandomStuff/chess.com-app/releases).
 2.  Download the latest `Chess.Setup.X.X.X.exe` for a standard installer, or the `Chess-X.X.X-win.zip` for a portable version.
 3.  Run the installer or extract the zip file to your desired location.
 
