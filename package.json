@@ -1,51 +1,51 @@
 {
-      "name": "chess",
-      "version": "1.0.0",
-      "description": "An Electron-powered Chess.com desktop app",
-      "main": "main.js",
-      "scripts": {
-        "start": "electron .",
-        "build": "electron-builder --win --x64 --ia32",
-        "dist": "electron-builder"
-      },
-      "keywords": [
-        "Electron",
-        "Chess.com",
-        "Wrapper"
+  "name": "duolingo",
+  "version": "1.0.0",
+  "description": "An Electron-powered Duolingo desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64 --ia32",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "Electron",
+    "Duolingo",
+    "Wrapper"
+  ],
+  "author": "Kai (Magic Dippy Egg)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^36.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.magicdippyegg.duolingo",
+    "productName": "Duolingo",
+    "copyright": "Copyright \u00a9 2025 ${author}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "icon.ico",
+      "preload.js"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
       ],
-      "author": "Kai (Magic Dippy Egg)",
-      "license": "MIT",
-      "devDependencies": {
-        "electron": "^36.2.1",
-        "electron-builder": "^26.0.12"
-      },
-      "build": {
-        "appId": "com.magicdippyegg.chess",
-        "productName": "Chess.com",
-        "copyright": "Copyright © 2025 ${author}",
-        "directories": {
-          "output": "dist"
-        },
-        "files": [
-          "main.js",
-          "package.json",
-          "icon.ico",
-          "preload.js"
-        ],
-        "win": {
-          "target": [
-            "nsis",
-            "zip"
-          ],
-          "icon": "icon.ico"
-        },
-        "nsis": {
-          "installerIcon": "icon.ico",
-          "uninstallerIcon": "icon.ico",
-          "uninstallDisplayName": "Chess Uninstaller",
-          "license": "LICENSE.md",
-          "allowToChangeInstallationDirectory": true,
-          "oneClick": false
-        }
-      }
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Duolingo Uninstaller",
+      "license": "LICENSE.md",
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
     }
+  }
+}
