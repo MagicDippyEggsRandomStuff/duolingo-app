@@ -1,6 +1,6 @@
-# Chess.com Client for Older Systems
+# Chess.com Desktop App
 
-This project provides a dedicated Chess.com client for systems that may no longer fully support the official Chess.com application, such as Windows 7, Windows 8, and other older operating systems. It aims to offer a familiar Chess.com experience by utilizing the `https://www.chess.com/` web interface within a standalone desktop application.
+This project provides a dedicated Chess.com desktop app that wraps the `https://www.chess.com/` web interface in a standalone Electron window.
 
 ## Features
 
@@ -10,9 +10,9 @@ This project provides a dedicated Chess.com client for systems that may no longe
 
 ## Installation
 
-You can find the latest releases (including `.exe` installers and `.zip` portable versions) on the [Releases page](https://github.com/MagicDippyEgg/chess-electron-oldersystems/releases) of this repository.
+You can find the latest releases (including `.exe` installers and `.zip` portable versions) on the [Releases page](https://github.com/MagicDippyEgg/chess.com-app/releases) of this repository.
 
-1.  Go to the [Releases page](https://github.com/MagicDippyEgg/chess-electron-oldersystems/releases).
+1.  Go to the [Releases page](https://github.com/MagicDippyEgg/chess.com-app/releases).
 2.  Download the latest `Chess.Setup.X.X.X.exe` for a standard installer, or the `Chess-X.X.X-win.zip` for a portable version.
 3.  Run the installer or extract the zip file to your desired location.
 
