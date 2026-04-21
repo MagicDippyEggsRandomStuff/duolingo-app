@@ -1,6 +1,6 @@
 {
       "name": "chess",
-      "version": "1.0.20",
+      "version": "1.0.2",
       "description": "An Electron-powered Chess.com desktop app",
       "main": "main.js",
       "scripts": {
