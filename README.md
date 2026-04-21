@@ -12,7 +12,7 @@ This project provides a dedicated Duolingo desktop app that wraps the `https://w
 
 You can find the latest releases (including `.exe` installers and `.zip` portable versions) on the [Releases page](https://github.com/MagicDippyEgg/duolingo-app/releases) of this repository.
 
-1.  Go to the [Releases page](https://github.com/MagicDippyEgg/duolingo-app/releases).
+1.  Go to the [Releases page](https://github.com/MagicDippyEggsRandomStuff/duolingo-app/releases).
 2.  Download the latest `Duolingo.Setup.X.X.X.exe` for a standard installer, or the `Duolingo-X.X.X-win.zip` for a portable version.
 3.  Run the installer or extract the zip file to your desired location.
 
